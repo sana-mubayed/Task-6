@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>BOOKSAW</title>
+</head>
+
+<body>
+    <header class="bg-gray">
+        <nav class="navbar navbar-expand-xl navbar-light border-bottom bg-gray fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo3" aria-controls="navbarTogglerDemo3" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon mx-1"></span>MENU
+                </button>
+                <div class="collapse flex-grow-0 navbar-collapse show" id="navbarTogglerDemo3">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">POPULAR</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero p-5">
+            <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active pt-5 pb-5 ">
+                        <div class="row justify-content-center  align-items-center gap-3">
+                            <div class="col-lg-4 col-md-12 col-sm-12 order-lg-2 order-1 ">
+                                <img src="./assets/images/main-banner1.jpg" class="d-block w-100 h-img " alt="Slide 2">
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-12 col-sm-12 order-lg-1 order-2 d-flex justify-content-center align-items-lg-start align-items-center flex-column">
+                                <h1 class="text-lg-start text-center fw-bold">Life Of The <br> Wild</h1>
+                                <p class="text-lg-start text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Vel voluptatum quibusdam consequuntur cupiditate ipsam consectetur
+                                    maiores eum mollitia asperiores perspiciatis.</p>
+                                <button class="c-bronze w-100 p-2">READ MORE<i
+                                        class="fa-solid fa-arrow-right px-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-5 ">
+                        <div class="row justify-content-center gap-3">
+                            <div class="col-lg-4 col-md-12 col-sm-12 order-lg-2 order-1 ">
+                                <img src="./assets/images/main-banner2.jpg" class="d-block w-100 h-img " alt="Slide 2">
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-12 col-sm-12 order-lg-1 order-2 d-flex justify-content-center align-items-lg-start align-items-center flex-column">
+                                <h1 class="text-lg-start text-center fw-bold">Birds Gonna<br> Be Happy</h1>
+                                <p class="text-lg-start text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Vel voluptatum quibusdam consequuntur cupiditate ipsam consectetur
+                                    maiores eum mollitia asperiores perspiciatis.</p>
+                                <button class="c-bronze w-50 p-2">READ MORE<i
+                                        class="fa-solid fa-arrow-right px-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                    <span class="rounded-circle border" aria-hidden="true"><i
+                            class="fa-solid fa-arrow-left p-3"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+                    <span class="rounded-circle border" aria-hidden="true"><i
+                            class="fa-solid fa-arrow-right p-3"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="bg-gray-2 p-5 ">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="./assets/images/client-image1.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="./assets/images/client-image2.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="./assets/images/client-image3.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="./assets/images/client-image4.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="./assets/images/client-image5.png" alt=""></div>
+            </div>
+        </section>
+        <section class="bg-gray p-5">
+            <p class="c-bg-gray text-center">SOME QUALITY ITEMS</p>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center text-center">
+                <span class="line d-none d-lg-block"></span>
+                <h5 class="text-dark fs-2 mx-lg-3 mb-4">Featured Books</h5>
+                <span class="line "></span>
+            </div>
+
+            <div class="row" id="root">
+            </div>
+            <div
+                class="d-flex d-flex flex-column flex-lg-row justify-content-center align-items-center text-center p-5">
+                <div class="line w-100"></div>
+            </div>
+            <h4 class="text-end">View All Products<i class="fa-solid fa-arrow-right p-3"></i></h4>
+        </section>
+        <section class="bg-gray-2 p-5" id="shop">
+            <div class="row justify-content-center  align-items-center gap-5">
+                <div class="col-lg-2 col-md-6 col-sm-12 shadow p-2 bg-gray4 mb-5" id="img">
+                </div>
+                <div
+                    class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-start align-items-start flex-column mt-5">
+                    <h1 class="text-start fw-bold">Best Selling<br>Book</h1>
+                    <div class="line2 mb-5"></div>
+                    <h5 class="text-black-50 text-start" id="author">By </h5>
+                    <h3 class="pt-3 pb-3" id="title"></h3>
+                    <p class="text-start text-black-50" id="paragraph"></p>
+                    <h4 class="text-start">Shop It Now<i class="fa-solid fa-arrow-right p-3"></i></h4>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray p-5">
+            <p class="c-bg-gray text-center">SOME QUALITY ITEMS</p>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center text-center">
+                <span class="line d-none d-lg-block"></span>
+                <h5 class="text-dark fs-2 mx-lg-3 mb-4">Popular Books</h5>
+                <span class="line "></span>
+            </div>
+            <ul class="list-group c-bg-gray list-group-horizontal justify-content-center flex-wrap pt-5 border-0"
+                id="genreList">
+                <li class="list-group-item"><a class="list-link active" href="#">All Genre</a></li>
+                <li class="list-group-item"><a class="list-link" href="#">Business</a></li>
+                <li class="list-group-item"><a class="list-link" href="#">Technology</a></li>
+                <li class="list-group-item"><a class="list-link" href="#">Romantic</a></li>
+                <li class="list-group-item"><a class="list-link" href="#">Adventure</a></li>
+                <li class="list-group-item"><a class="list-link" href="#">Fictional</a></li>
+            </ul>
+            <div class="row" id="root2">
+            </div>
+        </section>
+        <section class="bg-gray-2 p-5">
+            <div class="row justify-content-center  align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h2 class="text-dark fs-1">Subscribe To <br> Our Newsletter</h2>
+                    <div class="line2"></div>
+                </div>
+                <div
+                    class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start align-items-start flex-column mt-5">
+                    <p class="text-start text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Saepe
+                        beatae quaerat eius ut odit incidunt vel <br> adipisicing elit.illo expedita omnis.</p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-black-50 ">Enter your email address
+                            her</label> <button class="bg-gray-2 text-black border-0 ps-1">SEND<i
+                                class="fa-solid fa-paper-plane ps-1"></i></button>
+                        <input type="email" class="form-control border-bottom bg-gray-2 border-0"
+                            id="exampleFormControlInput1">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer class="bg-gray p-5">
+        <div class="container">
+            <div class="row border-bottom">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="row mb-3 justify-content-center">
+                        <h2 class="text-center p-3"><img src="./assets/images/logo.png" alt="logo" class="logo2 w-50">
+                        </h2>
+                        <p class="text-center text-black-50">Lorem ipsum, dolor sit amet <br>
+                            consectetur adipisicing <br> elit.Pariatur ut quo reiciendis,<br> Sunt, enim ad nam
+                            provident
+                            soluta <br> ipsum ex aspernatur rem incidunt accusant</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                    <h3 class="text-center pt-3 pb-3">About Us</h3>
+                    <ul class="list-unstyled text-dark">
+                        <li class="mb-1 text-center">vision</li>
+                        <li class="mb-1 text-center ">articles</li>
+                        <li class="mb-1 text-center ">careers</li>
+                        <li class="mb-1 text-center ">service terms</li>
+                        <li class="mb-1 text-center ">donate</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                    <h3 class="text-center pt-3 pb-3">Discover</h3>
+                    <ul class="list-unstyled text-dark">
+                        <li class="mb-1 text-center">Home</li>
+                        <li class="mb-1 text-center">Books</li>
+                        <li class="mb-1 text-center">Authors</li>
+                        <li class="mb-1 text-center">Subjects</li>
+                        <li class="mb-1 text-center">Advanced Search</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                    <h3 class="text-center pt-3 pb-3">My Account</h2>
+                        <ul class="list-unstyled text-dark">
+                            <li class="mb-1 text-center">Sign In</li>
+                            <li class="mb-1 text-center">View Cart</li>
+                            <li class="mb-1 text-center">My Wishlist</li>
+                            <li class="mb-1 text-center">Track My Order</li>
+                        </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                    <h2 class="text-center pt-3 pb-3">Help</h2>
+                    <ul class="list-unstyled text-dark">
+                        <li class="mb-1 text-center">Help center</li>
+                        <li class="mb-1 text-center">Report a problem</li>
+                        <li class="mb-1 text-center">Suggesting edits</li>
+                        <li class="mb-1 text-center">Contact us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center pt-3">
+                <div class="col-lg-10 col-md-6 col-sm-6 mb-3">
+                    <p class="text-black-50 text-lg-start text-center">© 2022 All rights reserved. Free HTML Template by
+                        <a class="nav-link active d-inline" href="#">TemplatesJungle</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                    <div class="d-flex flex-row justify-content-end">
+                        <a href="#" class="ms-2"><i class="fa-brands fa-facebook  text-black"></i></a>
+                        <a href="#" class="ms-2"><i class="fa-brands fa-twitter  text-black"></i></a>
+                        <a href="#" class="ms-2"><i class="fa-brands fa-youtube text-black"></i></a>
+                        <a href="#" class="ms-2"><i class="fa-brands fa-square-behance text-black"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </Footer>
+    <script src="./assets/script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
